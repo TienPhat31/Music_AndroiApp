@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity">
+
+    // View dùng để vuốt
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/myViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+    </androidx.viewpager2.widget.ViewPager2>
+
+
+    //View dùng để Click
+    <com.google.android.material.tabs.TabLayout
+        app:tabIndicatorColor="#a845de"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="#a845de"
+        app:tabTextColor="@color/black"
+        android:background="@android:color/transparent"
+        android:id="@+id/myTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.google.android.material.tabs.TabLayout>
+
+
+
+
+
+
+
+</LinearLayout>

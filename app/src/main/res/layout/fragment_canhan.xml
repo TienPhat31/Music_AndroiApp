@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:src="@drawable/zingmp3"
+        android:id="@+id/imageViewCaNhan"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></ImageView>
+
+    <TextView
+        android:id="@+id/textViewCaNhan"
+        android:textStyle="bold"
+        android:layout_margin="15sp"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_below="@+id/imageViewCaNhan"
+        android:text="NHẠC ONLINE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_margin="15sp"
+        android:layout_below="@+id/textViewCaNhan"
+        android:id="@+id/linearLayoutNhacYeuThich"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_weight="0.5"
+            android:src="@drawable/iconloved"
+            android:id="@+id/iconLovedCaNhan"
+            android:layout_width="30sp"
+            android:layout_height="40sp"/>
+
+        <TextView
+            android:layout_marginLeft="10sp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="Nhạc yêu thích"
+            android:layout_weight="9"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_margin="15sp"
+        android:layout_below="@+id/linearLayoutNhacYeuThich"
+        android:id="@+id/linearLayoutNhacYeuThich2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:layout_weight="0.5"
+            android:src="@drawable/playlisticon"
+            android:id="@+id/iconPlaylist"
+            android:layout_width="30sp"
+            android:layout_height="40sp"/>
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="9"
+            android:text="Playlist"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_margin="15sp"
+        android:layout_below="@+id/linearLayoutNhacYeuThich2"
+        android:id="@+id/linearLayoutNhacYeuThich3"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:layout_weight="0.5"
+            android:src="@drawable/uploadicon"
+            android:id="@+id/iconUpload"
+            android:layout_width="30sp"
+            android:layout_height="40sp"/>
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="9"
+            android:text="Upload"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_margin="15sp"
+        android:layout_below="@+id/linearLayoutNhacYeuThich3"
+        android:id="@+id/linearLayoutNhacYeuThich4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:layout_weight="0.5"
+            android:src="@drawable/plusicon"
+            android:id="@+id/iconPlus"
+            android:layout_width="30sp"
+            android:layout_height="40sp"/>
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="9"
+            android:text="Quan tâm"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>

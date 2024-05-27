@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_marginTop="20sp"
+        android:padding="7dp"
+        android:id="@+id/relativeChuDe_TheLoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="CHỦ ĐỀ VÀ THỂ LOẠI"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/textViewTittleChude_TheLoai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/textViewXemThemChuDe_TheLoai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/iconXemThem"
+            android:text="Xem thêm"
+            android:textColor="#9103AA"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_marginLeft="1sp"
+            android:layout_marginTop="3sp"
+            android:id="@+id/iconXemThem"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/iconxemthem"
+            android:layout_width="20sp"
+            android:layout_height="20sp"/>
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:id="@+id/horizontalScrollView"
+        android:layout_below="@+id/relativeChuDe_TheLoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </HorizontalScrollView>
+
+
+
+</RelativeLayout>

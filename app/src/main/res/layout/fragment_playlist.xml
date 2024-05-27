@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewTittlePlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="MÙA HÈ CỦA ZING"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginBottom="15sp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="Rửa tai bằng những bản nhạc thần thánh của mùa hè"
+        android:id="@+id/subTittle"
+        android:layout_below="@+id/textViewTittlePlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ListView
+        android:id="@+id/listViewPlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewViewMorePlaylist"></ListView>
+
+    <TextView
+        android:id="@+id/textViewViewMorePlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subTittle"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginBottom="5sp"
+        android:background="#c9c7c7"
+        android:drawableLeft="@drawable/iconmoreplaylist"
+        android:drawablePadding="10dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5sp"
+        android:paddingBottom="5sp"
+        android:text="Xem thêm playlists"
+        android:textColor="#0a0a0a"
+        android:textSize="20sp" />
+</RelativeLayout>

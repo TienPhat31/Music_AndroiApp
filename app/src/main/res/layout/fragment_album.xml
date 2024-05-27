@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:padding="5sp"
+        android:id="@+id/relativeAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="ALBUM HOT HIỆN NAY"
+            android:id="@+id/textViewTilttleAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textViewXemThemAlbum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/iconXemThem"
+            android:text="Xem thêm"
+            android:textColor="#9103AA"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_marginLeft="1sp"
+            android:layout_marginTop="3sp"
+            android:id="@+id/iconXemThem"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/iconxemthem"
+            android:layout_width="20sp"
+            android:layout_height="20sp"/>
+    </RelativeLayout>
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginLeft="5sp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginTop="10sp"
+        android:layout_below="@+id/relativeAlbum"
+        android:id="@+id/recyclerViewAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

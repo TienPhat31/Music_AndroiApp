@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1685" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/drawable/custom_background_banner.xml" value="0.1" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/drawable/custom_background_danhsachbaihat.xml" value="0.1165" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/drawable/dong_danhsachbaihat.xml" value="0.1165" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/activity_danh_sach_bai_hat.xml" value="0.24479166666666666" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/activity_danhsachbaihat_activite.xml" value="0.24479166666666666" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/activity_danhsachplaylist.xml" value="0.24479166666666666" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/activity_danhsachtatcaalbum.xml" value="0.24479166666666666" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/activity_danhsachtatcachude.xml" value="0.24479166666666666" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/activity_danhsachtheloaitheochude.xml" value="0.24479166666666666" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/activity_play_music.xml" value="0.24479166666666666" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/dong_album.xml" value="0.24791666666666667" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/dong_baihat.xml" value="0.24479166666666666" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/dong_banner.xml" value="0.264" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/dong_danhsach_tatca_album.xml" value="0.264" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/dong_danhsach_tatca_chude.xml" value="0.24479166666666666" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/dong_danhsach_tatca_playlists.xml" value="0.264" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/dong_danhsach_theloai_theo_chude.xml" value="0.24479166666666666" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/dong_danhsachbaihat.xml" value="0.24479166666666666" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/dong_playlist.xml" value="0.2" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/dong_playmusic.xml" value="0.24375" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/dong_search_baihat.xml" value="0.4" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/fragement_banner.xml" value="0.264" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/fragement_trang_chu.xml" value="0.3157099697885196" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/fragment_album.xml" value="0.24479166666666666" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/fragment_baihat.xml" value="0.24479166666666666" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/fragment_baihat_thichnhat.xml" value="0.24479166666666666" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/fragment_canhan.xml" value="0.24479166666666666" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/fragment_chude_theloai.xml" value="0.264" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/fragment_dianhac.xml" value="0.24479166666666666" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/fragment_playlist.xml" value="0.264" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/fragment_playmusic.xml" value="0.24479166666666666" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/layout/fragment_tim_kiem.xml" value="0.264" />
+        <entry key="..\:/HK5- 2022-2023- DH TON DUC THANG/UngDungDiDongAndroid/APP NHAC/app/src/main/res/menu/search_view.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

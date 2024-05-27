@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5sp"
+    android:layout_marginRight="10sp"
+    android:layout_marginLeft="5sp"
+    android:layout_marginBottom="10sp"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/linearCarViewAlbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    
+        <ImageView
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:id="@+id/imageViewAlbum"
+            android:layout_width="210sp"
+            android:layout_height="190sp"/>
+
+        <TextView
+            android:maxWidth="200sp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="Only C - Lou Hoàng"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:id="@+id/textViewTenAlbum"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginBottom="5sp"
+            android:textColor="#7A7A7A"
+            android:maxWidth="200dp"
+            android:textSize="15sp"
+            android:text="Noo Phuoc thinh"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_marginRight="5sp"
+            android:layout_marginLeft="5sp"
+            android:id="@+id/textViewTenCaSi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

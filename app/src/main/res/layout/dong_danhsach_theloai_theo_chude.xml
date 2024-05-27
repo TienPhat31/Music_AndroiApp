@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5sp"
+    android:layout_margin="5sp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/frameLayoutTheLoaiTheoChuDe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@mipmap/ic_launcher"
+                android:scaleType="fitXY"
+                android:id="@+id/imageViewTheLoaiTheoChuDe"
+                android:layout_width="220sp"
+                android:layout_height="180sp"/>
+        </FrameLayout>
+        
+        <TextView
+            android:textSize="20sp"
+            android:text="Nhac Viet thang 10"
+            android:textColor="@color/black"
+            android:maxWidth="200sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:id="@+id/textViewTenTheLoaiTheoChuDe"
+            android:padding="3sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="15sp"
+            android:text="Various Artists"
+            android:id="@+id/textViewTenCaSiTheLoaiTheoChuDe"
+            android:padding="3sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
